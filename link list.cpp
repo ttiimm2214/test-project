@@ -22,6 +22,7 @@ int print(merge *pr){
     temp=pr;
     while(temp!=NULL){
         cout<< temp->val;
+    	temp=temp->next;
     }
 }
 
